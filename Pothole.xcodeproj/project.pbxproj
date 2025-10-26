@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		322DEDF72EADC40300EF5319 /* hisadas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hisadas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DEDF72EADC40300EF5319 /* pothole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pothole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		322DEE252EADCC5F00EF5319 /* Exceptions for "Pothole" folder in "pothole" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 322DEDF62EADC40300EF5319 /* pothole */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		322DEDF92EADC40300EF5319 /* hisadas */ = {
+		322DEDF92EADC40300EF5319 /* Pothole */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hisadas;
+			exceptions = (
+				322DEE252EADCC5F00EF5319 /* Exceptions for "Pothole" folder in "pothole" target */,
+			);
+			path = Pothole;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +45,7 @@
 		322DEDEE2EADC40300EF5319 = {
 			isa = PBXGroup;
 			children = (
-				322DEDF92EADC40300EF5319 /* hisadas */,
+				322DEDF92EADC40300EF5319 /* Pothole */,
 				322DEDF82EADC40300EF5319 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +53,7 @@
 		322DEDF82EADC40300EF5319 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				322DEDF72EADC40300EF5319 /* hisadas.app */,
+				322DEDF72EADC40300EF5319 /* pothole.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		322DEDF62EADC40300EF5319 /* hisadas */ = {
+		322DEDF62EADC40300EF5319 /* pothole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 322DEE022EADC40600EF5319 /* Build configuration list for PBXNativeTarget "hisadas" */;
+			buildConfigurationList = 322DEE022EADC40600EF5319 /* Build configuration list for PBXNativeTarget "pothole" */;
 			buildPhases = (
 				322DEDF32EADC40300EF5319 /* Sources */,
 				322DEDF42EADC40300EF5319 /* Frameworks */,
@@ -61,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				322DEDF92EADC40300EF5319 /* hisadas */,
+				322DEDF92EADC40300EF5319 /* Pothole */,
 			);
-			name = hisadas;
+			name = pothole;
 			packageProductDependencies = (
 			);
 			productName = hisadas;
-			productReference = 322DEDF72EADC40300EF5319 /* hisadas.app */;
+			productReference = 322DEDF72EADC40300EF5319 /* pothole.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 322DEDF22EADC40300EF5319 /* Build configuration list for PBXProject "hisadas" */;
+			buildConfigurationList = 322DEDF22EADC40300EF5319 /* Build configuration list for PBXProject "Pothole" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				322DEDF62EADC40300EF5319 /* hisadas */,
+				322DEDF62EADC40300EF5319 /* pothole */,
 			);
 		};
 /* End PBXProject section */
@@ -256,17 +269,19 @@
 				DEVELOPMENT_TEAM = XW768UK2DU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pothole/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aidenisawesum2145.dsaidhsaio.hisadas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidenisawesum2145.potholeyay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -288,17 +303,19 @@
 				DEVELOPMENT_TEAM = XW768UK2DU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pothole/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aidenisawesum2145.dsaidhsaio.hisadas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidenisawesum2145.potholeyay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -313,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		322DEDF22EADC40300EF5319 /* Build configuration list for PBXProject "hisadas" */ = {
+		322DEDF22EADC40300EF5319 /* Build configuration list for PBXProject "Pothole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322DEE002EADC40600EF5319 /* Debug */,
@@ -322,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		322DEE022EADC40600EF5319 /* Build configuration list for PBXNativeTarget "hisadas" */ = {
+		322DEE022EADC40600EF5319 /* Build configuration list for PBXNativeTarget "pothole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322DEE032EADC40600EF5319 /* Debug */,
